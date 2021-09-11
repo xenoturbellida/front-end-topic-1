@@ -5,6 +5,11 @@ body {
     background: #E5E5E5;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+}
+
 ul, li {
     display: block;
     margin: 0;
@@ -69,7 +74,28 @@ nav {
     border-radius: 20px;
 }
 
+hr {
+    width: 15.63vw;
+    background-color: #B4ABAB;
+    height: 1px;
+    padding: 0;
+    margin: 0;
+}
 
 
+.green-figure-pic {
+    position: absolute;
+    z-index: 0;
+}
 
+.man-and-diagram-pic {
+    position: absolute;
+    z-index: 1;
 
+    /*bottom: 210px;*/
+}
+
+.businessman-dream-cont {
+    display: flex;
+    justify-content: space-between;
+}
