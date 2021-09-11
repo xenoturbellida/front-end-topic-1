@@ -97,6 +97,7 @@ hr {
 
 .businessman-dream p {
     font-size: 2.34vw;
+    margin: 0;
 }
 
 .businessman-dream-cont {
@@ -107,4 +108,9 @@ hr {
 .businessman-dream img {
     /* original image size is 582 x 454 */
     width: 45.47vw;
+}
+
+.everything-simple-cont {
+    display: flex;
+    justify-content: space-between;
 }
