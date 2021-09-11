@@ -8,6 +8,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
     padding: 0;
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 ul, li {
@@ -74,28 +75,36 @@ nav {
     border-radius: 20px;
 }
 
+.businessman-dream h1 {
+    font-size: 4.3vw;
+    /*margin-top: 0.756vh;*/
+    /*margin-bottom: 1.82vh;*/
+    margin-top: 0.756vh;
+    margin-bottom: 1.82vh;
+}
+
+.businessman-dream h2 {
+    font-size: 3.13vw;
+}
+
 hr {
     width: 15.63vw;
     background-color: #B4ABAB;
     height: 1px;
     padding: 0;
-    margin: 0;
+    margin: 0.28vh 0 0.28vh;
 }
 
-
-.green-figure-pic {
-    position: absolute;
-    z-index: 0;
-}
-
-.man-and-diagram-pic {
-    position: absolute;
-    z-index: 1;
-
-    /*bottom: 210px;*/
+.businessman-dream p {
+    font-size: 2.34vw;
 }
 
 .businessman-dream-cont {
     display: flex;
     justify-content: space-between;
+}
+
+.businessman-dream img {
+    /* original image size is 582 x 454 */
+    width: 45.47vw;
 }
