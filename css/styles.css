@@ -2,6 +2,7 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
     background: #fcfcfc;
 }
 
@@ -11,6 +12,11 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Open Sans', sans-serif;
 }
 
+p {
+    font-size: 2.34vw;
+    margin: 0;
+}
+
 ul, li {
     display: block;
     margin: 0;
@@ -18,8 +24,10 @@ ul, li {
 }
 
 header {
+    position: sticky;
+    top: 0;
     background: white;
-    font-size: 20px;
+    font-size: 1.56vw;
     padding: 4px 0 4px 0;
     box-shadow: 0 1px 15px whitesmoke;
 }
@@ -43,6 +51,7 @@ nav {
 .menu {
     display: flex;
     margin-left: auto;
+    font-weight: 600;
 }
 
 .menu li {
@@ -57,38 +66,43 @@ nav {
 .logo{
     margin-right: 19.45vw;
 }
+
 .phone {
     margin-left: auto;
     margin-right: 1.33vw;
     font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
+    font-weight: 700;
+    font-size: 1.56vw;
     color: #3F3D56;
 }
 
 .backCall button {
     margin-left: auto;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 20px;
+    font-size: 1.56vw;
+    font-weight: 600;
     padding: 10px 7px 10px 7px;
     border: none;
     color: white;
     text-decoration: none;
     display: inline-block;
     background: linear-gradient(70.6deg, #35CC79 10.03%, rgba(52, 125, 85, 0.65) 139.7%);
-    border-radius: 20px;
+    border-radius: 25px;
     cursor: pointer;
 }
 
 .businessman-dream h1 {
     font-size: 4.3vw;
+    font-weight: 700;
     /*margin-top: 0.756vh;*/
     /*margin-bottom: 1.82vh;*/
     margin-top: 0.756vh;
     margin-bottom: 1.82vh;
 }
 
-.businessman-dream h2 {
+.businessman-dream h2   {
     font-size: 3.13vw;
+    font-weight: 600;
 }
 
 hr {
@@ -99,10 +113,10 @@ hr {
     margin: 0.28vh 0 0.28vh;
 }
 
-.businessman-dream p {
-    font-size: 2.34vw;
-    margin: 0;
-}
+/*.businessman-dream p {*/
+/*    font-size: 2.34vw;*/
+/*    margin: 0;*/
+/*}*/
 
 .businessman-dream-cont {
     display: flex;
@@ -112,9 +126,28 @@ hr {
 .businessman-dream img {
     /* original image size is 582 x 454 */
     width: 45.47vw;
+    margin-left: 4.77vw;
+}
+
+.everything-simple h1{
+    font-size: 4.3vw;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    margin: 1.68vh 0 1.68vh 0;
+}
+
+.everything-simple h2 {
+    font-size: 3.13vw;
+    font-weight: 600;
 }
 
 .everything-simple-cont {
     display: flex;
     justify-content: space-between;
+}
+
+.everything-simple-cont img {
+    margin-left: 4.38vw;
+    width: 44.06vw;
 }
