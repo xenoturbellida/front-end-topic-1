@@ -2,7 +2,7 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'Source Sans Pro', sans-serif;
-    background: #E5E5E5;
+    background: #fcfcfc;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -20,8 +20,8 @@ ul, li {
 header {
     background: white;
     font-size: 20px;
-    padding: 4px 0 8px 0;
-
+    padding: 4px 0 4px 0;
+    box-shadow: 0 1px 15px whitesmoke;
 }
 
 header a {
@@ -49,10 +49,14 @@ nav {
     margin-right: 1.41vw;
 }
 
-.logo {
-    margin-right: 19.45vw;
+.menu a:hover {
+    border-bottom: 2px solid black;
+    padding-bottom: 3px;
 }
 
+.logo{
+    margin-right: 19.45vw;
+}
 .phone {
     margin-left: auto;
     margin-right: 1.33vw;
@@ -68,11 +72,11 @@ nav {
     padding: 10px 7px 10px 7px;
     border: none;
     color: white;
-
     text-decoration: none;
     display: inline-block;
     background: linear-gradient(70.6deg, #35CC79 10.03%, rgba(52, 125, 85, 0.65) 139.7%);
     border-radius: 20px;
+    cursor: pointer;
 }
 
 .businessman-dream h1 {
