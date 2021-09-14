@@ -151,3 +151,65 @@ hr {
     margin-left: 4.38vw;
     width: 44.06vw;
 }
+
+.choose-sphere-rectangle {
+    position: relative;
+    padding: 0;
+    margin: 50px;
+    width: 525px;
+    height: 305px;
+    background: linear-gradient(70.6deg, #35CC79 10.03%, rgba(52, 125, 85, 0.65) 139.7%);
+    border-radius: 7px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.08);
+    border: 1px solid transparent;
+    border-bottom-width: 2px;
+}
+
+.choose-sphere-rectangle:hover {
+    border: 1px solid #3F3D56;
+    border-bottom-width: 2px;
+}
+
+.girl-with-cart {
+    position: absolute;
+    z-index: 1;
+    padding: 0;
+    margin: 0;
+    bottom: 23px;
+    left: 233px;
+}
+
+.beige-figure {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    top: 85px;
+    left: 295px;
+}
+
+.choose-sphere-circle {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    top: 232px;
+    left: 33px;
+}
+
+.choose-sphere-arrow {
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    width: 20px;
+    height: 18px;
+    background-color: black;
+}
+
+.choose-sphere h2 {
+    position: absolute;
+    top: 15px;
+    left: 33px;
+    font-weight: 600;
+    font-size: 40px;
+}
