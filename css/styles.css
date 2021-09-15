@@ -30,6 +30,7 @@ header {
     font-size: 1.56vw;
     padding: 4px 0 4px 0;
     box-shadow: 0 1px 15px whitesmoke;
+    z-index: 2;
 }
 
 header a {
@@ -108,9 +109,10 @@ nav {
 hr {
     width: 15.63vw;
     background-color: #B4ABAB;
-    height: 1px;
+    height: 3px;
     padding: 0;
     margin: 0.28vh 0 0.28vh;
+    border: 0;
 }
 
 /*.businessman-dream p {*/
@@ -152,10 +154,84 @@ hr {
     width: 44.06vw;
 }
 
+.everything-simple-block {
+    position: relative;
+    width: 249px;
+    height: 211px;
+}
+
+.everything-simple-circle {
+    position: absolute;
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    background: linear-gradient(70.6deg, #35CC79 10.03%, rgba(52, 125, 85, 0.65) 139.7%);
+    bottom: 172px;
+    left: 94px;
+}
+
+.everything-simple-scheme-pic {
+    position: absolute;
+    left: 117px;
+    bottom: 192px;
+}
+
+.everything-simple-scheme h3 {
+    position: absolute;
+    font-weight: 600;
+    font-size: 20px;
+    top: 47px;
+    left: 52px;
+    text-align: center;
+}
+
+.everything-simple-scheme hr {
+    position: absolute;
+    bottom: 97px;
+    left: 23px;
+    width: 209px;
+}
+
+.everything-simple-scheme p {
+    position: absolute;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    bottom: 13px;
+    left: 20px;
+}
+
+.choose-sphere h1 {
+    font-weight: 700;
+    font-size: 3.9vw;
+    color: #3F3D56;
+    display: flex;
+    justify-content: center;
+    margin: 1.68vh 0 1.68vh 0;
+}
+
+.choose-sphere-cont {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.choose-sphere-products {
+    margin-bottom: 30px;
+}
+
+.choose-sphere-other {
+    margin-left: auto;
+}
+
+.choose-sphere-favours {
+    margin-left: auto;
+}
+
 .choose-sphere-rectangle {
     position: relative;
     padding: 0;
-    margin: 50px;
+    margin: 0;
     width: 525px;
     height: 305px;
     background: linear-gradient(70.6deg, #35CC79 10.03%, rgba(52, 125, 85, 0.65) 139.7%);
@@ -197,14 +273,14 @@ hr {
     left: 33px;
 }
 
-.choose-sphere-arrow {
-    position: absolute;
-    top: 18px;
-    left: 18px;
-    width: 20px;
-    height: 18px;
-    background-color: black;
-}
+/*.choose-sphere-arrow {*/
+/*    position: absolute;*/
+/*    top: 18px;*/
+/*    left: 18px;*/
+/*    width: 20px;*/
+/*    height: 18px;*/
+/*    background-color: black;*/
+/*}*/
 
 .choose-sphere h2 {
     position: absolute;
@@ -212,4 +288,35 @@ hr {
     left: 33px;
     font-weight: 600;
     font-size: 40px;
+}
+
+.gone-shopping {
+    position: absolute;
+    right: 42px;
+    bottom: 34px;
+    z-index: 1;
+}
+
+.choose-sphere-arrow {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid white;
+    border-left: 15px solid black;
+    border-bottom: 10px solid white;
+}
+
+.special-event {
+    position: absolute;
+    left: 200px;
+    bottom: 24px;
+}
+
+.design-pic {
+    position: absolute;
+    left: 220px;
+    bottom: 17px;
+    z-index: 1;
 }
