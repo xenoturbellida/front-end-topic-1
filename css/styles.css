@@ -205,7 +205,7 @@ hr {
 
 .everything-simple-scheme p {
     position: absolute;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 20px;
     text-align: center;
@@ -321,4 +321,145 @@ hr {
     left: 220px;
     bottom: 17px;
     z-index: 1;
+}
+
+.scenarios h1 {
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    margin: 120px 0 39px 0;
+}
+
+.scenarios-strategy {
+    width: 60vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.scenarios-strategy a {
+    /*margin-right: 6.3vw;*/
+}
+
+.income-growth {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    width: 69.8vw;
+    margin: 53px auto 140px auto;
+}
+
+.scenarios-strategy button{
+    margin-left: auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    padding: 5px 10px 5px 10px;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    background: linear-gradient(70.6deg, #35CC79 10.03%, rgba(52, 125, 85, 0.65) 139.7%);
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+.scenarios-scheme {
+    /*width: 84vw;*/
+    /*width: 84vw;*/
+    /*height: 900px;*/
+    display: flex;
+    flex-wrap: wrap;
+
+    max-width: 37.5rem;
+
+}
+
+.scenarios-scheme-text {
+    width: 525px;
+    height: 355px;
+}
+
+.scenarios-rect {
+    position: relative;
+    padding: 0;
+    width: 525px;
+    height: 355px;
+    background: linear-gradient(70.6deg, #35CC79 10.03%, rgba(52, 125, 85, 0.65) 139.7%);
+    border-radius: 7px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.08);
+    border: 1px solid transparent;
+    border-bottom-width: 2px;
+}
+
+.scenarios-rect img {
+    position: absolute;
+    bottom: 70px;
+    left: 40px;
+}
+
+.ring-right {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: radial-gradient(ellipse at center,
+    transparent 69%, #fcfcfc 0);
+    right: -50px;
+    top: -50px;
+}
+
+.ring-left {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: radial-gradient(ellipse at center,
+    transparent 69%, #fcfcfc 0);
+    left: -50px;
+    top: -50px;
+}
+
+.income {
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    right: 44px;
+    bottom: 60px;
+}
+
+.income-percentage {
+    position: absolute;
+    font-size: 50px;
+    color: white;
+    font-weight: 600;
+    right: 20px;
+    bottom: 5px;
+}
+
+.scenarios-scheme-text h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.scenarios-scheme-text p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.to-order button {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 16px 81px 16px 81px;
+    margin: 35px 0 78px 0;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    background: linear-gradient(70.6deg, #35CC79 10.03%, rgba(52, 125, 85, 0.65) 139.7%);
+    border-radius: 8px;
+    cursor: pointer;
 }
