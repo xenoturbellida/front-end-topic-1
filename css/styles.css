@@ -323,21 +323,21 @@ hr {
     z-index: 1;
 }
 
-.scenarios h1 {
+.article-header h1 {
     font-weight: 700;
     font-size: 50px;
     text-align: center;
     margin: 120px 0 39px 0;
 }
 
-.scenarios-strategy {
+.body-menu {
     width: 60vw;
     margin: auto;
     display: flex;
     justify-content: space-around;
 }
 
-.scenarios-strategy a {
+.body-menu a {
     /*margin-right: 6.3vw;*/
 }
 
@@ -350,7 +350,7 @@ hr {
     margin: 53px auto 140px auto;
 }
 
-.scenarios-strategy button{
+.body-button {
     margin-left: auto;
     font-family: 'Open Sans', sans-serif;
     font-size: 35px;
@@ -359,9 +359,13 @@ hr {
     border: none;
     text-decoration: none;
     display: inline-block;
-    background: linear-gradient(70.6deg, #35CC79 10.03%, rgba(52, 125, 85, 0.65) 139.7%);
+    background: transparent;
     border-radius: 24px;
     cursor: pointer;
+}
+
+.body-button:hover {
+    background: linear-gradient(70.6deg, #35CC79 10.03%, rgba(52, 125, 85, 0.65) 139.7%);
 }
 
 .scenarios-scheme {
@@ -462,4 +466,63 @@ hr {
     background: linear-gradient(70.6deg, #35CC79 10.03%, rgba(52, 125, 85, 0.65) 139.7%);
     border-radius: 8px;
     cursor: pointer;
+}
+
+.cash-scheme {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cash-description {
+    width: 38.4vw;
+}
+
+.cash-description h2{
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.cash-description h3 {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.cash-description p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+.cash-pic {
+    position: relative;
+    width: 566px;
+    height: 455px;
+}
+
+.green-figure {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.beige-figure-hor {
+    position: absolute;
+    top: 75px;
+    left: 130px;
+}
+
+.kkt-neva {
+    position: absolute;
+    top: 120px;
+    left: 70px;
+}
+
+.cash-pic p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.cash-pic p img {
+    margin-left: 7px;
 }
