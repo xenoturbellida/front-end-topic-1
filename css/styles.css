@@ -154,10 +154,15 @@ hr {
     width: 44.06vw;
 }
 
+.everything-simple-scheme {
+    display: flex;
+    justify-content: space-between;
+}
 .everything-simple-block {
     position: relative;
-    width: 249px;
-    height: 211px;
+    width: 259px;
+    height: 222px;
+    margin-top: 140px;
 }
 
 .everything-simple-circle {
@@ -166,28 +171,34 @@ hr {
     height: 76px;
     border-radius: 50%;
     background: linear-gradient(70.6deg, #35CC79 10.03%, rgba(52, 125, 85, 0.65) 139.7%);
-    bottom: 172px;
+    bottom: 182px;
     left: 94px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .everything-simple-scheme-pic {
     position: absolute;
-    left: 117px;
-    bottom: 192px;
+    margin: auto;
 }
 
 .everything-simple-scheme h3 {
     position: absolute;
     font-weight: 600;
     font-size: 20px;
-    top: 47px;
-    left: 52px;
+    top: 54px;
+    left: 25px;
+    width: 210px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+
 }
 
 .everything-simple-scheme hr {
     position: absolute;
-    bottom: 97px;
+    bottom: 105px;
     left: 23px;
     width: 209px;
 }
@@ -198,16 +209,16 @@ hr {
     font-weight: 400;
     font-size: 20px;
     text-align: center;
-    bottom: 13px;
-    left: 20px;
+    top: 120px;
+    left: 25px;
+    width: 210px;
 }
 
 .choose-sphere h1 {
     font-weight: 700;
     font-size: 3.9vw;
     color: #3F3D56;
-    display: flex;
-    justify-content: center;
+    text-align: center;
     margin: 1.68vh 0 1.68vh 0;
 }
 
@@ -272,15 +283,6 @@ hr {
     top: 232px;
     left: 33px;
 }
-
-/*.choose-sphere-arrow {*/
-/*    position: absolute;*/
-/*    top: 18px;*/
-/*    left: 18px;*/
-/*    width: 20px;*/
-/*    height: 18px;*/
-/*    background-color: black;*/
-/*}*/
 
 .choose-sphere h2 {
     position: absolute;
