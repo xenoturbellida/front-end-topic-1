@@ -250,27 +250,64 @@
                     </div>
                     <p class="income-growth">Выбери решение, которое максимально подходит твоему бизнесу, и посмотри прогнозируемый рост выручки</p>
                 </div>
-                <div>
-                    <form>
-                        <label for="kkt">ККТ</label>
-                        <select id="kkt" name="kkt">
-                            <option value="neva-01-f">Нева - 01 - Ф</option>
-                            <option value="volga-dnepr">Волга - Днепр - 006</option>
-                        </select>
+                <div class="choose-solution-form">
+                    <form class="constructor">
+                        <label>
+                            ККТ
+                            <select name="kkt">
+                                <option value="neva-01-f">Нева - 01 - Ф</option>
+                                <option value="volga-dnepr">Волга - Днепр - 006</option>
+                            </select>
+                        </label>
+                        <br>
+                        <label>
+                            Сценарий роста бизнеса
+                            <select name="scenario">
+                                <option value="nothing">Нет</option>
+                                <option value="interactive-guides">Интерактивные видеоуроки</option>
+                                <option value="auto-preorders">Автоматические предзаказы</option>
+                                <option value="video-analytics">Видео аналитика</option>
+                                <option value="ad-effect-valuation">Оценка эффективности рекламы</option>
+                            </select>
+                        </label>
+                        <br>
+                        <button>Добавить сценарий</button>
+                        <br>
+                        <label>
+                            Текущая выручка
+                            <input type="range" min="1" max="100" value="50">
+                        </label>
                     </form>
-                    <form>
-                        <label for="scenario">Сценарий роста бизнеса</label>
-                        <select id="scenario" name="scenario">
-                            <option value="nothing">Нет</option>
-                            <option value="interactive-guides">Интерактивные видеоуроки</option>
-                            <option value="auto-preorders">Автоматические предзаказы</option>
-                            <option value="video-analytics">Видео аналитика</option>
-                            <option value="ad-effect-valuation">Оценка эффективности рекламы</option>
-                        </select>
-                    </form>
-                    <button>Добавить сценарий</button>
+                    <div class="prediction">
+                        <label class="prediction-label">
+                            Прогнозируемый рост выручки
+                            <br>
+                            <output>25 000 руб/мес</output>
+                        </label>
+                        <hr>
+                        <p>Итого</p>
+                        <div class="costs-and-kkt">
+                            <label>
+                                Расходы на СРБ
+                                <br>
+                                <output>650 руб/мес</output>
+                            </label>
+                        </div>
+                        <div class="costs-and-kkt">
+                            <label>
+                                ККТ
+                                <br>
+                                <output>3650 руб</output>
+                            </label>
+                        </div>
+
+
+                        <a href="#">
+                            <button class="submit-application">Оставить заявку</button>
+                        </a>
+                    </div>
                 </div>
-                <div></div>
+
             </article>
         </div>
     </main>
@@ -283,18 +320,21 @@
                 </div>
                 <div>
                     <fieldset class="user-input">
-                        <label>Город
-                            <input>
+                        <label>
+                            Город
+                            <input name="city" placeholder="Москва" required>
                         </label>
 
 
-                        <label>Имя
-                            <input>
+                        <label>
+                            Имя
+                            <input name="name" placeholder="Иванов Иван Иванович" required>
                         </label>
 
 
-                        <label>Телефон
-                            <input>
+                        <label>
+                            Телефон
+                            <input type="tel" name="phone" placeholder="+7" required>
                         </label>
 
 
@@ -304,7 +344,7 @@
                         </label>
 
                     <a href="#">
-                        <button class="">Оставить заявку</button>
+                        <button type="submit" class="">Оставить заявку</button>
                     </a>
                     </fieldset>
 
