@@ -607,7 +607,7 @@ hr {
     margin-top: 8%;
 }
 
-.submit-application {
+.submit-application-gr {
     width: 100%;
     font-family: 'Open Sans', sans-serif;
     font-size: 25px;
@@ -624,9 +624,52 @@ hr {
     color: white;
 }
 
-.user-input {
-    display: block;
+.customers-data {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.promise {
+    width: 43%;
+}
+
+.promise p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 55px;
+}
+
+.promise img {
+    width: 39%;
+    margin-top: 5%;
+}
+
+.customers-input {
+    width: 30%;
     border: 0;
+}
+
+.input {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.submit-application-wh {
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    /*padding: 16px 81px 16px 81px;*/
+    padding: 5% 20% 5% 20%;
+    margin-top: 88px;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    background: gray;
+    border-radius: 8px;
+    cursor: pointer;
 }
 
 .footer-container {
