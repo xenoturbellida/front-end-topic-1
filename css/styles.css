@@ -158,12 +158,18 @@ hr {
     display: flex;
     justify-content: space-between;
 }
+
 .everything-simple-block {
     position: relative;
-    width: 259px;
     height: 222px;
+    width: 259px;
     margin-top: 140px;
+    background-image: url('../img/evrth-simple-rectangle.svg');
 }
+
+/*.everything-simple-rect {*/
+/*    width: 19vw;*/
+/*}*/
 
 .everything-simple-circle {
     position: absolute;
@@ -225,26 +231,17 @@ hr {
 .choose-sphere-cont {
     display: flex;
     flex-wrap: wrap;
-}
-
-.choose-sphere-products {
-    margin-bottom: 30px;
-}
-
-.choose-sphere-other {
-    margin-left: auto;
-}
-
-.choose-sphere-favours {
-    margin-left: auto;
+    gap: 20px;
 }
 
 .choose-sphere-rectangle {
     position: relative;
     padding: 0;
     margin: 0;
-    width: 525px;
+    /*width: 525px;*/
     height: 305px;
+    width: 41vw;
+    min-width: 480px;
     background: linear-gradient(70.6deg, #35CC79 10.03%, rgba(52, 125, 85, 0.65) 139.7%);
     border-radius: 7px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.08);
@@ -262,16 +259,20 @@ hr {
     z-index: 1;
     padding: 0;
     margin: 0;
-    bottom: 23px;
-    left: 233px;
+    /*bottom: 23px;*/
+    /*left: 233px;*/
+    bottom: 20px;
+    right: 0;
 }
 
 .beige-figure {
     position: absolute;
     padding: 0;
     margin: 0;
-    top: 85px;
-    left: 295px;
+    /*top: 85px;*/
+    /*left: 295px;*/
+    bottom: 5%;
+    right: 5%;
 }
 
 .choose-sphere-circle {
@@ -282,6 +283,8 @@ hr {
     background-color: white;
     top: 232px;
     left: 33px;
+    cursor: pointer;
+    border: 0;
 }
 
 .choose-sphere h2 {
@@ -312,14 +315,18 @@ hr {
 
 .special-event {
     position: absolute;
-    left: 200px;
-    bottom: 24px;
+    /*left: 200px;*/
+    /*bottom: 24px;*/
+    bottom: 5%;
+    right: 0;
 }
 
 .design-pic {
     position: absolute;
-    left: 220px;
-    bottom: 17px;
+    /*left: 220px;*/
+    /*bottom: 17px;*/
+    right: 0;
+    bottom: 10%;
     z-index: 1;
 }
 
@@ -383,9 +390,12 @@ hr {
     /*height: 900px;*/
     display: flex;
     flex-wrap: wrap;
-
     max-width: 37.5rem;
+}
 
+.scenarios-scheme-block {
+    display: flex;
+    justify-content: space-between;
 }
 
 .scenarios-scheme-text {
@@ -527,11 +537,25 @@ hr {
 }
 
 .cash-pic p {
+    position: absolute;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: 40px;
+    bottom: -90px;
+    left: 150px;
 }
 
 .cash-pic p img {
     margin-left: 7px;
+}
+
+.user-input {
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 0;
 }
