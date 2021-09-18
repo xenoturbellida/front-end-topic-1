@@ -671,3 +671,24 @@ address {
     margin: 40px 0 72px 0;
 }
 
+.footer-rect {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(70.6deg, #35CC79 10.03%, rgba(52, 125, 85, 0.65) 139.7%);
+    margin: 0;
+    z-index: -2;
+}
+
+.footer-tri {
+    position: absolute;
+    width: 0;
+    height: 0;
+    background-color: transparent;
+    z-index: -1;
+    border-bottom: 100px solid transparent;
+    border-left: 50vw solid transparent;
+    border-top: 100px solid #fcfcfc;
+    border-right: 50vw solid transparent;
+}
