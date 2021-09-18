@@ -252,25 +252,29 @@
                 </div>
                 <div class="choose-solution-form">
                     <form class="constructor">
-                        <label>
-                            ККТ
-                            <select name="kkt">
-                                <option value="neva-01-f">Нева - 01 - Ф</option>
-                                <option value="volga-dnepr">Волга - Днепр - 006</option>
-                            </select>
-                        </label>
-                        <br>
-                        <label>
-                            Сценарий роста бизнеса
-                            <select name="scenario">
-                                <option value="nothing">Нет</option>
-                                <option value="interactive-guides">Интерактивные видеоуроки</option>
-                                <option value="auto-preorders">Автоматические предзаказы</option>
-                                <option value="video-analytics">Видео аналитика</option>
-                                <option value="ad-effect-valuation">Оценка эффективности рекламы</option>
-                            </select>
-                        </label>
-                        <br>
+                        <div>
+                            <label>
+                                ККТ
+                                <select name="kkt">
+                                    <option value="neva-01-f">Нева - 01 - Ф</option>
+                                    <option value="volga-dnepr">Волга - Днепр - 006</option>
+                                </select>
+                            </label>
+                            <br>
+                        </div>
+                        <div>
+                            <label>
+                                Сценарий роста бизнеса
+                                <select name="scenario">
+                                    <option value="nothing">Нет</option>
+                                    <option value="interactive-guides">Интерактивные видеоуроки</option>
+                                    <option value="auto-preorders">Автоматические предзаказы</option>
+                                    <option value="video-analytics">Видео аналитика</option>
+                                    <option value="ad-effect-valuation">Оценка эффективности рекламы</option>
+                                </select>
+                            </label>
+                            <br>
+                        </div>
                         <button>Добавить сценарий</button>
                         <br>
                         <label>
@@ -300,64 +304,80 @@
                                 <output>3650 руб</output>
                             </label>
                         </div>
-
-
                         <a href="#">
                             <button class="submit-application">Оставить заявку</button>
                         </a>
                     </div>
                 </div>
+            </article>
+            <article>
+                <div class="container">
+                    <div>
+                        <div>
+                            <p>Оставьте заявку, и мы свяжемся с вами в течение 24 часов</p>
+                            <img src="img/iris-logo.svg" alt="iris logo">
+                        </div>
+                        <div>
+                            <fieldset class="user-input">
+                                <label>
+                                    Город
+                                    <input name="city" placeholder="Москва" required>
+                                </label>
 
+
+                                <label>
+                                    Имя
+                                    <input name="name" placeholder="Иванов Иван Иванович" required>
+                                </label>
+
+
+                                <label>
+                                    Телефон
+                                    <input type="tel" name="phone" placeholder="+7" required>
+                                </label>
+
+
+                                <label>
+                                    <input type="checkbox">
+                                    Я согласен с условиями сбора и обработки персональных данных
+                                </label>
+
+                                <a href="#">
+                                    <button type="submit" class="">Оставить заявку</button>
+                                </a>
+                            </fieldset>
+
+                        </div>
+                    </div>
+                </div>
+                <div></div>
             </article>
         </div>
     </main>
-    <footer>
-        <div class="container">
-            <div>
-                <div>
-                    <p>Оставьте заявку, и мы свяжемся с вами в течение 24 часов</p>
-                    <img src="img/iris-logo.svg" alt="iris logo">
-                </div>
-                <div>
-                    <fieldset class="user-input">
-                        <label>
-                            Город
-                            <input name="city" placeholder="Москва" required>
-                        </label>
 
-
-                        <label>
-                            Имя
-                            <input name="name" placeholder="Иванов Иван Иванович" required>
-                        </label>
-
-
-                        <label>
-                            Телефон
-                            <input type="tel" name="phone" placeholder="+7" required>
-                        </label>
-
-
-                        <label>
-                            <input type="checkbox">
-                            Я согласен с условиями сбора и обработки персональных данных
-                        </label>
-
-                    <a href="#">
-                        <button type="submit" class="">Оставить заявку</button>
-                    </a>
-                    </fieldset>
-
-                </div>
-            </div>
-        </div>
-        <div></div>
-    </footer>
 <main>
 
 </main>
 <footer>
-
+    <div class="container">
+        <div class="footer-container">
+            <address>
+                <div class="contacts">
+                    <p>Заказать</p>
+                    <a href = "mailto: iris-retail@iris.ru">iris-retail@iris.ru</a>
+                    <hr>
+                </div>
+                <div class="contacts">
+                    <p>Наши контакты</p>
+                    <a href="tel:+78005500479">8 (800) 550-04-79</a>
+                    <hr>
+                </div>
+            </address>
+            <p class="licence">
+                Лигал, который занимает два или три предложения. Будет находиться здесь, в конце футера. Тут будет прописана юридическая информация, чтобы с точки зрения закона все было ок%)
+            </p>
+        </div>
+    </div>
 </footer>
 </body>
 </html>
