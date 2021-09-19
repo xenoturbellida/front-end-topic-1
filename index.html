@@ -268,7 +268,6 @@
                         <p>от 3 650<img src="img/ruble.svg" alt="ruble sign"></p>
                     </div>
                 </div>
-
             </article>
             <article class="choose-solution">
                 <div class="article-header-about">
@@ -345,47 +344,41 @@
                     </div>
                 </div>
             </article>
-
-
             <article class="customers-data">
                 <div class="promise">
                     <p>Оставьте заявку, и мы свяжемся с вами в течение 24 часов</p>
-                    <img src="img/iris-logo.svg" alt="iris logo">
+                    <img src="img/logo-white.svg" alt="iris logo">
                 </div>
                 <fieldset class="customers-input">
                     <div class="input">
-                        <label>
-                            Город
-                            <br>
-                            <input name="city" placeholder="Москва" required>
-                        </label>
+                        <label for="city">Город</label>
+                        <br>
+                        <input type="text" name="city" id="city" placeholder="Москва" required>
                     </div>
                     <div class="input">
-                        <label>
-                            Имя
-                            <br>
-                            <input name="name" placeholder="Иванов Иван Иванович" required>
-                        </label>
+                        <label for="name">Имя</label>
+                        <br>
+                        <input type="text" name="name"  id="name" placeholder="Иванов Иван Иванович" required>
                     </div>
                     <div class="input">
-                        <label>
-                            Телефон
-                            <br>
-                            <input type="tel" name="phone" placeholder="+7" required>
+                        <label for="phone">Телефон</label>
+                        <br>
+                        <input type="tel" name="phone" id="phone" placeholder="+7" required>
+                    </div>
+
+                    <div  class="checkbox">
+                        <input type="checkbox" id="permission">
+                        <label for="permission">
+                            Я согласен с условиями сбора и обработки персональных данных
                         </label>
                     </div>
 
-                    <label>
-                        <input type="checkbox">
-                        Я согласен с условиями сбора и обработки персональных данных
-                    </label>
+
                     <a href="#">
                         <button type="submit" class="submit-application-wh">Оставить заявку</button>
                     </a>
                 </fieldset>
             </article>
-
-
         </div>
     </main>
     <footer>
@@ -408,9 +401,9 @@
                 </p>
             </div>
         </div>
-<!--        <div class="footer-rect">-->
-<!--            <div class="footer-tri"></div>-->
-<!--        </div>-->
+        <div class="footer-rect">
+            <div class="footer-tri"></div>
+        </div>
     </footer>
 </body>
 </html>
