@@ -640,13 +640,77 @@ hr {
 
 .choose-solution-form {
     width: 100%;
-    /*display: flex;*/
-    /*justify-content: space-between;*/
+    display: flex;
+    justify-content: space-between;
 }
 
 
 .constructor {
-    width: 60%;
+    width: 55%;
+}
+
+select {
+    width: 100%;
+    box-shadow: 0 1px 15px lightgray;
+    padding: 0.7em 1em;
+    border: 0;
+    background: white;
+    border-radius: 8px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.custom-select {
+    position: relative;
+    margin: 2% 0 7% 0;
+}
+
+.custom-arrow {
+    position: absolute;
+    top: 3%;
+    right: 1px;
+    display: block;
+    background: white;
+    height: 94%;
+    width: 2rem;
+    pointer-events: none;
+    border-radius: 8px;
+}
+
+.custom-arrow::after {
+    top: 35%;
+    right: 50%;
+    position: absolute;
+    border: solid #8C8C8C;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 20%;
+    content: '';
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.constructor button {
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #fcfcfc;
+    cursor: pointer;
+    margin-left: 4%;
+    margin-bottom: 7%;
+}
+
+.constructor button span {
+    display: block;
+    position: absolute;
+    font-size: 50px;
+    left: -12%;
+    top: -20px;
 }
 
 .constructor label {
@@ -829,50 +893,6 @@ address {
     border-right: 50vw solid transparent;
 }
 
-select {
-    width: 100%;
-    box-shadow: 0 10px 25px lightgray;
-    padding: 1em 1em;
-    border: 0;
-    background: white;
-    border-radius: 8px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    font-size: 25px;
-}
 
-.custom-select {
-    position: relative;
-    margin: 2% 0 7% 0;
-}
-
-select:focus {
-    border-color: #35CC79;
-}
-
-.custom-arrow {
-    position: absolute;
-    top: 3%;
-    right: 1px;
-    display: block;
-    background: white;
-    height: 94%;
-    width: 2rem;
-    pointer-events: none;
-    border-radius: 8px;
-}
-
-.custom-arrow::after {
-    top: 35%;
-    right: 50%;
-    position: absolute;
-    border: solid #8C8C8C;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 20%;
-    content: '';
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-}
 
 
