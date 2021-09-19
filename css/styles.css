@@ -577,17 +577,20 @@ hr {
 }
 
 .cash-scheme {
+    width: 100%;
     display: flex;
     justify-content: space-between;
+    margin-top: 4%;
 }
 
 .cash-description {
-    width: 38.4vw;
+    width: 41%;
 }
 
 .cash-description h2{
     font-weight: 700;
     font-size: 50px;
+    margin-bottom: 6%;
 }
 
 .cash-description h3 {
@@ -601,28 +604,31 @@ hr {
     font-size: 20px;
     margin-bottom: 12px;
 }
+
 .cash-pic {
     position: relative;
-    width: 566px;
-    height: 455px;
+    width: 50%;
 }
 
 .green-figure {
     position: absolute;
+    width: 100%;
     top: 0;
     left: 0;
 }
 
 .beige-figure-hor {
     position: absolute;
-    top: 75px;
-    left: 130px;
+    width: 65%;
+    top: 10%;
+    left: 20%;
 }
 
 .kkt-neva {
     position: absolute;
-    top: 120px;
-    left: 70px;
+    width: 75%;
+    top: 20%;
+    left: 10%;
 }
 
 .cash-pic p {
@@ -630,8 +636,8 @@ hr {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: 40px;
-    bottom: -90px;
-    left: 150px;
+    left: 25%;
+    bottom: 5%;
 }
 
 .cash-pic p img {
