@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/styles.css">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
@@ -11,8 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
-
-    <title>Title</title>
+    <title>IRIS</title>
 </head>
 <body>
     <header>
@@ -292,30 +290,26 @@
                 </div>
                 <div class="choose-solution-form">
                     <form class="constructor">
-                        <div>
-                            <label>
-                                ККТ
-                                <select name="kkt">
-                                    <option value="neva-01-f">Нева - 01 - Ф</option>
-                                    <option value="volga-dnepr">Волга - Днепр - 006</option>
-                                </select>
-                            </label>
-                            <br>
+                        <label for="kkt">ККТ</label>
+                        <div class="custom-select">
+                            <select name="kkt" id="kkt">
+                                <option value="neva-01-f">Нева - 01 - Ф</option>
+                                <option value="volga-dnepr">Волга - Днепр - 006</option>
+                            </select>
+                            <span class="custom-arrow"></span>
                         </div>
-                        <div>
-                            <label>
-                                Сценарий роста бизнеса
-                                <select name="scenario">
-                                    <option value="nothing">Нет</option>
-                                    <option value="interactive-guides">Интерактивные видеоуроки</option>
-                                    <option value="auto-preorders">Автоматические предзаказы</option>
-                                    <option value="video-analytics">Видео аналитика</option>
-                                    <option value="ad-effect-valuation">Оценка эффективности рекламы</option>
-                                </select>
-                            </label>
-                            <br>
+                        <label for="scenario">Сценарий роста бизнеса</label>
+                        <div class="custom-select">
+                            <select name="scenario" id="scenario">
+                                <option value="nothing">Нет</option>
+                                <option value="interactive-guides">Интерактивные видеоуроки</option>
+                                <option value="auto-preorders">Автоматические предзаказы</option>
+                                <option value="video-analytics">Видео аналитика</option>
+                                <option value="ad-effect-valuation">Оценка эффективности рекламы</option>
+                            </select>
+                            <span class="custom-arrow"></span>
                         </div>
-                        <button>Добавить сценарий</button>
+                        <button><span>+</span>Добавить сценарий</button>
                         <br>
                         <label>
                             Текущая выручка
