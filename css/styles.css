@@ -13,7 +13,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-    font-size: 2.34vw;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
     margin: 0;
 }
 
@@ -27,7 +29,7 @@ header {
     position: sticky;
     top: 0;
     background: white;
-    font-size: 1.56vw;
+    font-size: 20px;
     padding: 4px 0 4px 0;
     box-shadow: 0 1px 15px whitesmoke;
     z-index: 2;
@@ -46,7 +48,6 @@ nav {
 .container {
     width: 84vw;
     margin: 0 auto;
-    /*чтобы спозиционировать по центру*/
 }
 
 .menu {
@@ -73,14 +74,14 @@ nav {
     margin-right: 1.33vw;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
-    font-size: 1.56vw;
+    font-size: 20px;
     color: #3F3D56;
 }
 
 .backCall button {
     margin-left: auto;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1.56vw;
+    font-size: 20px;
     font-weight: 600;
     padding: 10px 7px 10px 7px;
     border: none;
@@ -93,17 +94,15 @@ nav {
 }
 
 .businessman-dream h1 {
-    font-size: 4.3vw;
+    font-size: 55px;
     font-weight: 700;
-    /*margin-top: 0.756vh;*/
-    /*margin-bottom: 1.82vh;*/
-    margin-top: 0.756vh;
-    margin-bottom: 1.82vh;
+    margin-top: 3%;
 }
 
 .businessman-dream h2   {
-    font-size: 3.13vw;
+    font-size: 40px;
     font-weight: 600;
+    margin-top: 13%;
 }
 
 hr {
@@ -111,14 +110,9 @@ hr {
     background-color: #B4ABAB;
     height: 3px;
     padding: 0;
-    margin: 0.28vh 0 0.28vh;
+    margin: 20px 0 20px;
     border: 0;
 }
-
-/*.businessman-dream p {*/
-/*    font-size: 2.34vw;*/
-/*    margin: 0;*/
-/*}*/
 
 .businessman-dream-cont {
     display: flex;
@@ -126,22 +120,27 @@ hr {
 }
 
 .businessman-dream img {
-    /* original image size is 582 x 454 */
-    width: 45.47vw;
-    margin-left: 4.77vw;
+    width: 60%;
+    margin-left: 10%;
+    margin-bottom: 5%;
 }
 
 .everything-simple h1{
-    font-size: 4.3vw;
+    font-size: 55px;
     font-weight: 700;
-    display: flex;
-    justify-content: center;
-    margin: 1.68vh 0 1.68vh 0;
+    text-align: center;
+    margin-bottom: 5%;
 }
 
 .everything-simple h2 {
-    font-size: 3.13vw;
+    font-size: 40px;
     font-weight: 600;
+}
+
+.everything-simple-cont p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
 }
 
 .everything-simple-cont {
@@ -150,8 +149,8 @@ hr {
 }
 
 .everything-simple-cont img {
-    margin-left: 4.38vw;
-    width: 44.06vw;
+    margin-left: 10%;
+    width: 50%;
 }
 
 .everything-simple-scheme {
@@ -161,52 +160,51 @@ hr {
 
 .everything-simple-block {
     position: relative;
-    height: 222px;
-    width: 259px;
+    width: 24%;
+    height: 500px;
     margin-top: 140px;
-    background-image: url('../img/evrth-simple-rectangle.svg');
 }
 
-/*.everything-simple-rect {*/
-/*    width: 19vw;*/
-/*}*/
+.evrth-simple-rect {
+    width: 100%;
+    height: auto;
+}
 
 .everything-simple-circle {
     position: absolute;
-    width: 76px;
-    height: 76px;
+    width: 29%;
+    height: 0;
+    padding-bottom: 29%;
     border-radius: 50%;
     background: linear-gradient(70.6deg, #35CC79 10.03%, rgba(52, 125, 85, 0.65) 139.7%);
-    bottom: 182px;
-    left: 94px;
     display: flex;
     justify-content: center;
     align-items: center;
+    top: -9%;
+    left: 36%;
 }
 
 .everything-simple-scheme-pic {
+    width: 50%;
     position: absolute;
-    margin: auto;
+    bottom: 19%;
 }
 
 .everything-simple-scheme h3 {
     position: absolute;
+    top: 14%;
+    left: 15%;
     font-weight: 600;
     font-size: 20px;
-    top: 54px;
-    left: 25px;
-    width: 210px;
+    width: 70%;
     text-align: center;
-    display: flex;
-    justify-content: center;
-
 }
 
 .everything-simple-scheme hr {
     position: absolute;
-    bottom: 105px;
-    left: 23px;
-    width: 209px;
+    left: 15%;
+    width: 70%;
+    top: 22%;
 }
 
 .everything-simple-scheme p {
@@ -215,20 +213,22 @@ hr {
     font-weight: 400;
     font-size: 20px;
     text-align: center;
-    top: 120px;
-    left: 25px;
-    width: 210px;
+    top: 28%;
+    left: 15%;
+    width: 70%;
 }
 
 .choose-sphere h1 {
     font-weight: 700;
-    font-size: 3.9vw;
+    font-size: 50px;
     color: #3F3D56;
     text-align: center;
-    margin: 1.68vh 0 1.68vh 0;
+    margin-top: -150px;
+    margin-bottom: 7%;
 }
 
 .choose-sphere-cont {
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -238,7 +238,6 @@ hr {
     position: relative;
     padding: 0;
     margin: 0;
-    /*width: 525px;*/
     height: 305px;
     width: 41vw;
     min-width: 480px;
@@ -259,8 +258,6 @@ hr {
     z-index: 1;
     padding: 0;
     margin: 0;
-    /*bottom: 23px;*/
-    /*left: 233px;*/
     bottom: 20px;
     right: 0;
 }
@@ -269,22 +266,8 @@ hr {
     position: absolute;
     padding: 0;
     margin: 0;
-    /*top: 85px;*/
-    /*left: 295px;*/
     bottom: 5%;
     right: 5%;
-}
-
-.choose-sphere-circle {
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: white;
-    top: 232px;
-    left: 33px;
-    cursor: pointer;
-    border: 0;
 }
 
 .choose-sphere h2 {
@@ -302,15 +285,121 @@ hr {
     z-index: 1;
 }
 
-.choose-sphere-arrow {
+.arrow-in-circle {
     position: absolute;
-    top: 15px;
-    left: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    top: 232px;
+    left: 33px;
+    border: 0;
+    box-shadow: 1px 1px 5px gray;
+}
+
+.arrow {
+    position: absolute;
+    top: 10px;
+    left: 16px;
     width: 0;
     height: 0;
-    border-top: 10px solid white;
-    border-left: 15px solid black;
-    border-bottom: 10px solid white;
+    border-top: 15px solid transparent;
+    border-left: 23px solid black;
+    border-bottom: 15px solid transparent;
+    border-right: 23px solid transparent;
+}
+
+.arrow-tri {
+    position: absolute;
+    top: -15px;
+    left: -23px;
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-left: 7px solid white;
+    border-bottom: 15px solid transparent;
+    border-right: 7px solid transparent;
+}
+
+.arrow-button {
+    width: 120%;
+    height: 120%;
+    border-radius: 50%;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.arrow-in-gray-circle {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: lightgray;
+    top: 46%;
+    right: -5%;
+    border: 0;
+    box-shadow: 1px 1px 5px gray;
+}
+
+.white-arrow {
+    position: absolute;
+    top: 10px;
+    left: 16px;
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-left: 23px solid white;
+    border-bottom: 15px solid transparent;
+    border-right: 23px solid transparent;
+}
+
+.gray-arrow-tri {
+    position: absolute;
+    top: -15px;
+    left: -23px;
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-left: 7px solid lightgray;
+    border-bottom: 15px solid transparent;
+    border-right: 7px solid transparent;
+}
+
+.arrow-in-gray-circle-left {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: lightgray;
+    top: 46%;
+    left: -5%;
+    border: 0;
+    box-shadow: 1px 1px 5px gray;
+}
+
+.white-arrow-left {
+    position: absolute;
+    top: 10px;
+    right: 16px;
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-left: 23px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 23px solid white;
+}
+
+.gray-arrow-tri-left {
+    position: absolute;
+    top: -15px;
+    right: -23px;
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-left: 7px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 7px solid lightgray;
 }
 
 .special-event {
