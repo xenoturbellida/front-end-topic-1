@@ -1,5 +1,6 @@
 html {
     font-family: 'Inter', sans-serif;
+    background-color: #E5E5E5;
 }
 
 
@@ -16,8 +17,8 @@ html {
     padding: 0.7em 1em;
     border: 0;
     background: white;
-    border-radius: 8px;
-    margin-top: 1%;
+    border-radius: 10px;
+    margin-bottom: 24px;
     display: block;
     width: 240px;
     padding-bottom: 24px;
@@ -29,7 +30,7 @@ html {
     border: 0;
     background: white;
     border-radius: 8px;
-    margin-top: 1%;
+    margin-bottom: 24px;
     display: block;
     width: 240px;
     padding-bottom: 24px;
