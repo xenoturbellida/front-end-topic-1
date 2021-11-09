@@ -954,4 +954,80 @@ footer {
 
 
 
+@media only screen and (max-device-width: 800px) {
+    /*p {*/
+    /*    font-size: 18px;*/
+    /*}*/
+
+    /*.businessman-dream h1 {*/
+    /*    font-size: 30px;*/
+    /*}*/
+
+    /*.businessman-dream h2 {*/
+    /*    font-size: 25pt;*/
+    /*}*/
+    .businessman-dream-cont {
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+
+    .businessman-dream img {
+        width: 100%;
+        margin: auto;
+    }
+
+    .everything-simple-cont {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .everything-simple-cont img {
+        margin: auto;
+        width: 100%;
+    }
+
+    .everything-simple-scheme {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .everything-simple-block {
+        width: 49%;
+    }
+
+    .everything-simple-circle {
+        top: -11%;
+    }
+
+    .choose-sphere-cont {
+        justify-content: center;
+    }
+
+    .arrow-in-gray-circle-left {
+        display: none;
+    }
+
+    .arrow-in-gray-circle {
+        display: none;
+    }
+
+    .scenarios-scheme-block {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .scenarios-scheme-block :nth-child(2n) {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .scenarios-scheme-block :nth-child(2n + 1) {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+
 
